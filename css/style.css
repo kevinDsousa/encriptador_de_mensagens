@@ -1,0 +1,103 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+/*conteiner principal*/
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 80px;
+}
+
+/*Section*/
+.content section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 31.09px;
+    height: 48px;
+    margin: 20px;
+}
+
+.content textarea {
+    width: 80%;
+    height: 56px;
+    border: none;
+    color: #0A3871;
+    background-color: transparent;
+}
+
+.actions {
+    margin-top: 150px;
+}
+
+.actions button {
+    width: 328px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 24px;
+    cursor: pointer;
+    border: none
+}
+
+.actions button:nth-child(1) {
+    background-color: #0A3871;
+    color: white;
+}
+.actions button:nth-child(2) {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+/*Aside*/
+
+.content aside {
+    width: 30%;
+    height: 90vh;
+    border: none;
+    background-color: white;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.4);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content aside img {
+    width: 336px;
+    height: 304px;
+}
+
+.content h3,
+p {
+    text-align: center;
+}
+
+.content span {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 2px
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 16px;
+}
