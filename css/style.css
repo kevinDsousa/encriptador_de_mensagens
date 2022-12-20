@@ -35,12 +35,13 @@ body {
     margin: 20px;
 }
 
-.content textarea {
+.content input {
     margin: 5rem 0;
     width: 80%;
     height: 56px;
     border: none;
     background-color: transparent;
+    font-size: 25px;
 }
 
 ::-webkit-input-placeholder {
