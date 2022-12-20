@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="js/index.js"></script>
     <title>Encriptador de Mensagens</title>
 </head>
 
@@ -18,12 +19,12 @@
                 <span id="aviso"><img src="./assets/Vector (1).png" alt="aviso"> Apenas letras minúsculas e sem
                     acento</span>
                 <div class="actions">
-                    <button>Criptografar</button>
-                    <button>Descriptografar</button>
+                    <button onclick="Crypt()">Criptografar</button>
+                    <button onclick="desCrypt()">Descriptografar</button>
                 </div>
             </section>
             <aside>
-                <img src="./assets/High quality products 1 1.svg" alt="imagem principal">
+                <img id="image-aside" onkeypress="Write()" src="./assets/High quality products 1 1.svg" alt="imagem principal">
                 <h3>Nenhuma mensagem encontrada</h3>
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </aside>
