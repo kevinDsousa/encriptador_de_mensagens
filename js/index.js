@@ -1,12 +1,18 @@
 function Write() {
-    /*verificar algo sobre contexto para que o site recarregue sempre*/
-    const display = document.getElementsByClassName("informationDisplay");    
-    let controle = 0;
-    while(controle < display.length) {
-        display[controle].className = "informationDisplay--active";
+    const display = document.getElementsByClassName("informationDisplay");
+
+    if (texto.value !== '') {
+        for (let i = 0; i < display.length; i++) {
+            display[i].classList.add("active");
+        }
+    }
+    else {
+        for (let i = 0; i < display.length; i++) {
+            display[i].classList.remove("active");
+        }
     }
 }
 
-function Crypt() {console.log("crypt")}
+function Crypt() { console.log("crypt") }
 
-function desCrypt() {console.log("descripta")}
+function desCrypt() { console.log("desCript") }

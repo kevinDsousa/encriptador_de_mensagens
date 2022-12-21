@@ -114,7 +114,7 @@ textarea:-moz-placeholder {
     height: 304px;
 }
 
-.informationDisplay--active {
+.informationDisplay.active {
     display: none;
 }
 
