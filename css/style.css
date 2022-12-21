@@ -97,7 +97,7 @@ textarea:-moz-placeholder {
 /*Aside*/
 
 .content aside {
-    width: 30%;
+    width: 550px;
     height: 90vh;
     border: none;
     background-color: white;
@@ -109,9 +109,13 @@ textarea:-moz-placeholder {
     justify-content: center;
 }
 
-.content aside img {
+#image-aside {
     width: 336px;
     height: 304px;
+}
+
+.informationDisplay--active {
+    display: none;
 }
 
 .content h3,

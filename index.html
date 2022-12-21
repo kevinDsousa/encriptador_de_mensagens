@@ -15,7 +15,7 @@
         <div class="content">
             <img id="logo" src="./assets/Vector.png" alt="logo da alura">
             <section>
-                <input name="texto" id="texto" placeholder="Digite seu texto" autofocus />
+                <input onchange="Write()" name="texto" id="texto" placeholder="Digite seu texto" autofocus />
                 <span id="aviso"><img src="./assets/Vector (1).png" alt="aviso"> Apenas letras minúsculas e sem
                     acento</span>
                 <div class="actions">
@@ -24,9 +24,9 @@
                 </div>
             </section>
             <aside>
-                <img id="image-aside" onkeypress="Write()" src="./assets/High quality products 1 1.svg" alt="imagem principal">
-                <h3>Nenhuma mensagem encontrada</h3>
-                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <img class="informationDisplay" src="./assets/High quality products 1 1.svg" alt="imagem principal">
+                <h3 class="informationDisplay">Nenhuma mensagem encontrada</h3>
+                <p class="informationDisplay">Digite um texto que você deseja criptografar ou descriptografar.</p>
             </aside>
         </div>
     </main>
