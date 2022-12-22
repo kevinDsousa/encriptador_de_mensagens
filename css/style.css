@@ -83,10 +83,11 @@ textarea:-moz-placeholder {
     color: white;
 }
 
-.actions button:nth-child(2) {
+.descript {
     background-color: #D8DFE8;
     color: #0A3871;
 }
+
 
 #aviso {
     font-size: 12px;
@@ -112,10 +113,6 @@ textarea:-moz-placeholder {
 #image-aside {
     width: 336px;
     height: 304px;
-}
-
-.informationDisplay.active {
-    display: none;
 }
 
 .content h3,

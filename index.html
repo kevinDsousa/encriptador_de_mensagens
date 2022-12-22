@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="js/index.js"></script>
     <title>Encriptador de Mensagens</title>
 </head>
 
@@ -15,24 +14,25 @@
         <div class="content">
             <img id="logo" src="./assets/Vector.png" alt="logo da alura">
             <section>
-                <input onkeyup="Write()" name="texto" id="texto" placeholder="Digite seu texto" autofocus />
+                <input name="texto" id="texto" placeholder="Digite seu texto" autofocus />
                 <span id="aviso"><img src="./assets/Vector (1).png" alt="aviso"> Apenas letras minúsculas e sem
                     acento</span>
                 <div class="actions">
-                    <button onclick="Crypt()">Criptografar</button>
-                    <button onclick="desCrypt()">Descriptografar</button>
+                    <button onclick="criptografar()">Criptografar</button>
+                    <button onclick="descriptografar()" class="descript">Descriptografar</button>
                 </div>
             </section>
-            <aside>
-                <img class="informationDisplay" src="./assets/High quality products 1 1.svg" alt="imagem principal">
-                <h3 class="informationDisplay">Nenhuma mensagem encontrada</h3>
-                <p class="informationDisplay">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <aside class="content-aside" id="content-aside">
+                <img src="./assets/High quality products 1 1.svg" alt="imagem principal">
+                <h3 id="context">Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </aside>
         </div>
     </main>
     <footer>
         <h3>Desenvolvido por <a href="https://github.com/KevinDik">Kevin Sousa</a></h3>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
