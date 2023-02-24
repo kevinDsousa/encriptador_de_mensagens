@@ -1,6 +1,8 @@
 # encriptador_de_mensagens
 Challenge one alura, desafio proposto pelo programa
 
+<img src="./assets/cms_files_10224_1671211139Prancheta_3.png"/>
+
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
